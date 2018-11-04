@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 867 250" width="867" height="250">
+  <style>
+    @font-face {
+      font-family: 'Bryant Pro Medium Alternate';
+      src: url(../fonts/BryantPro-MediumAlternate.otf);
+    }
+
+    @font-face {
+      font-family: 'Bryant Pro Light';
+      src: url(../fonts/BryantPro-Light.otf);
+    }
+
+    .brand-text {
+      opacity: 0;
+      transform: translateX(-25px);
+      animation: move .5s linear 4.5s forwards;
+    }
+
+    .brand-logo > * {
+      fill-opacity: 0;
+      stroke-width: 1;
+      stroke: #666666;
+      animation-name: dash, color;
+      animation-timing-function: linear, linear;
+      animation-fill-mode: forwards, forwards;
+    }
+
+    .brand-logo > .logo-1-rect {
+      stroke-dasharray: 346.245;
+      stroke-dashoffset: 346.245;
+      animation-duration: 3s, .5s;
+      animation-delay: 1s, 4.5s;
+    }
+
+    .brand-logo > .logo-1-circle {
+      stroke-dasharray: 169.686;
+      stroke-dashoffset: -169.686;
+      animation-duration: 2s, .5s;
+      animation-delay: 2s, 4.5s;
+    }
+
+    .brand-logo > .logo-2-rect {
+      stroke-dasharray: 439.553;
+      stroke-dashoffset: -439.553;
+      animation-duration: 4s, .5s;
+      animation-delay: 0s, 4.5s;
+    }
+
+    .brand-logo > .logo-2-circle {
+      stroke-dasharray: 169.686;
+      stroke-dashoffset: 169.686;
+      animation-duration: 2s, .5s;
+      animation-delay: 2s, 4.5s;
+    }
+
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes color {
+      to {
+        fill-opacity: 1;
+        stroke-width: 0;
+      }
+    }
+
+    @keyframes move {
+      to {
+        transform: translateX(0px);
+        opacity: 1;
+      }
+    }
+  </style>
+  
+  <g style="isolation:isolate" class="brand-logo">
+    <path class="logo-2-rect" d=" M 240.925 146.842 L 240.925 162.339 L 187.175 162.339 L 187.175 146.842 L 154.889 176.312 C 143.953 186.333 126.939 185.59 116.918 174.654 L 116.918 174.654 C 106.897 163.718 107.64 146.704 118.576 136.683 L 195.211 66.46 C 206.147 56.439 223.161 57.182 233.182 68.118 L 233.182 68.118 C 237.147 72.445 239.427 77.724 240.05 83.146 L 240.925 146.842 Z " vector-effect="non-scaling-stroke" fill="rgb(117,169,44)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+    <circle class="logo-2-circle" vector-effect="non-scaling-stroke" cx="214.25" cy="162.96754464824198" r="26.99999999999997" fill="rgb(78,112,41)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+    <path class="logo-1-rect" d=" M 67.05 175.368 L 142.796 105.78 C 153.732 95.759 154.475 78.744 144.454 67.808 L 144.454 67.808 C 134.433 56.872 117.419 56.13 106.483 66.151 L 29.05 137.118 L 67.05 175.368" fill="rgb(156,213,32)" vector-effect="non-scaling-stroke" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+    <path class="logo-1-circle" d=" M 28.954 175.463 C 18.415 164.924 18.415 147.811 28.954 137.272 C 39.494 126.733 56.606 126.733 67.146 137.272 C 77.685 147.811 77.685 164.924 67.146 175.463 C 56.606 186.002 39.494 186.002 28.954 175.463 Z " fill="rgb(203,228,56)" vector-effect="non-scaling-stroke" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+  </g>
+  <g style="isolation:isolate" class="brand-text">
+    <g transform="matrix(1,0,0,1,827,131)">
+      <text transform="matrix(1,0,0,1,0,30)" style="font-family:'Bryant Pro Light';font-weight:400;font-size:40px;font-style:normal;fill:#666666;stroke:none;">®</text>
+    </g>
+    <g transform="matrix(1,0,0,1,287.5,74)">
+      <text transform="matrix(1,0,0,1,0,72)" style="font-family:'Bryant Pro Medium Alternate';font-weight:400;font-size:96px;font-style:normal;fill:#666666;stroke:none;">morphis</text>
+      <text transform="matrix(1,0,0,1,348.672,72)" style="font-family:'Bryant Pro Light';font-weight:400;font-size:96px;font-style:normal;fill:#666666;stroke:none;">tech</text>
+    </g>
+  </g>
+</svg>
